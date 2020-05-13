@@ -1,0 +1,40 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: ec7dadfc6961dd3733b90786c7bd94ba541beb7fe6588bb260794308e63957d8
+
+name:           hipi
+version:        0.1.0.0
+homepage:       https://github.com/kana-sama/hipi#readme
+bug-reports:    https://github.com/kana-sama/hipi/issues
+author:         kana-sama
+maintainer:     andrew4chrome@gmail.com
+copyright:      2020 kana-sama
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/kana-sama/hipi
+
+library
+  exposed-modules:
+      Language.Hipi.AST
+      Language.Hipi.Compile
+      Language.Hipi.Core.AST
+      Language.Hipi.Core.Check
+      Language.Hipi.Core.Pretty
+      Language.Hipi.Pretty
+      Lib
+  other-modules:
+      Paths_hipi
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , generic-lens
+    , lens
+    , uniplate
+  default-language: Haskell2010

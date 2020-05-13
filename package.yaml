@@ -1,0 +1,15 @@
+name:                hipi
+version:             0.1.0.0
+github:              "kana-sama/hipi"
+author:              "kana-sama"
+maintainer:          "andrew4chrome@gmail.com"
+copyright:           "2020 kana-sama"
+
+dependencies:
+- base >= 4.7 && < 5
+- uniplate
+- generic-lens
+- lens
+
+library:
+  source-dirs: src
